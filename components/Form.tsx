@@ -64,7 +64,7 @@ const Form = () => {
                 const { success, error } = await response.json();
 
                 if (success) {
-                    toast(t("email_success"));
+                    toast(t("email_sent"));
                     setFormData({
                         firstName: "",
                         lastName: "",
@@ -239,10 +239,10 @@ const Form = () => {
                 >
                     <CheckCircle className="h-12 w-12 md:h-16 md:w-16 text-[#00b37d] mx-auto mb-4 md:mb-6" />
                     <p className="text-2xl md:text-3xl font-semibold">
-                        Thank you for joining the billsder Beta!
+                        {t("thank_you")}
                     </p>
                     <p className="text-[#d7f6e5] mt-3 md:mt-4 text-lg md:text-xl">
-                        We'll be in touch soon with more information.
+                        {t("we'll be in touch soon")}
                     </p>
                 </motion.div>
             )}

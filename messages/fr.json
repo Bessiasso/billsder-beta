@@ -35,7 +35,9 @@
         "no_html": "Les balises HTML ne sont pas autorisées",
         "email_sent": "Email envoyé avec succès. Vous recevrez bientôt un courrier électronique de confirmation.",
         "email_error": "Une erreur s'est produite lors de l'envoi de l'email. Veuillez réessayer ultérieurement.",
-        "failed_sending": "Échec de l'envoi de l'email"
+        "failed_sending": "Échec de l'envoi de l'email",
+        "thank_you": "Merci de rejoindre la bêta de billsder!",
+        "We'll be in touch soon": "Nous vous contacterons bientôt avec plus d'informations sur le lancement de la bêta."
     },
     "MobileNav":{
         "close_navigation": "Fermer la navigation",

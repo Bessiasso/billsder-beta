@@ -35,7 +35,9 @@
         "no_html": "No HTML allowed",
         "email_sent": "Email sent successfully, you will receive a confirmation email shortly.",
         "email_error": "An error occurred while sending the email, please try again later.",
-        "failed_sending": "Failed to send email"
+        "failed_sending": "Failed to send email",
+        "thank_you": "Thank you for joining the billsder Beta!",
+        "We'll be in touch soon": "We'll be in touch soon with more information about the Beta launch."
     },
     "MobileNav":{
         "close_navigation": "Close Navigation",
