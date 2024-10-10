@@ -51,6 +51,22 @@ const Form = () => {
                 email: email.replace(htmlTagsRegex, ""),
             };
 
+            // Validate email domain
+            const validationResponse = await fetch("/api/validate-email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ email: filteredData.email }),
+            });
+
+            if (!validationResponse.ok) {
+                const { error } = await validationResponse.json();
+                toast(t("invalid_email_domain"));
+                return;
+            }
+
+            // If email domain is allowed, proceed with sending the email
             const response = await fetch("/api/send", {
                 method: "POST",
                 headers: {

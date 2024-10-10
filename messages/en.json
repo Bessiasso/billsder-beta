@@ -37,7 +37,8 @@
         "email_error": "An error occurred while sending the email, please try again later.",
         "failed_sending": "Failed to send email",
         "thank_you": "Thank you for joining the billsder Beta!",
-        "we_will_contact": "We'll be in touch soon with more information about the Beta launch."
+        "we_will_contact": "We'll be in touch soon with more information about the Beta launch.",
+        "invalid_email_domain": "Sorry, we don't accept registrations from this email domain."
     },
     "MobileNav":{
         "close_navigation": "Close Navigation",

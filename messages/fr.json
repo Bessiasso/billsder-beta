@@ -37,7 +37,8 @@
         "email_error": "Une erreur s'est produite lors de l'envoi de l'email. Veuillez réessayer ultérieurement.",
         "failed_sending": "Échec de l'envoi de l'email",
         "thank_you": "Merci de rejoindre la bêta de billsder!",
-        "we_will_contact": "Nous vous contacterons bientôt avec plus d'informations sur le lancement de la bêta."
+        "we_will_contact": "Nous vous contacterons bientôt avec plus d'informations sur le lancement de la bêta.",
+        "invalid_email_domain": "Désolé, nous n'acceptons pas les inscriptions de ce domaine d'email."
     },
     "MobileNav":{
         "close_navigation": "Fermer la navigation",
