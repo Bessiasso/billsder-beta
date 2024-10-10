@@ -1,0 +1,76 @@
+{
+    "Nav": {
+        "features": "Features",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, fr {fr} en {🇺🇸} other {Unknown}}"
+    },
+    "Hero": {
+        "title": "Join the billsder Beta",
+        "subtitle": "Revolutionize Your Invoicing Process",
+        "key_features": "Key Features",
+        "feature_title_1": "Effortless Creation",
+        "feature_description_1": "Design professional invoices in minutes",
+        "feature_title_2": "Smart Automation",
+        "feature_description_2": "Save time with automated recurring invoices and reminders",
+        "feature_title_3": "Global Reach",
+        "feature_description_3": "Create invoices in multiple currencies and languages",
+        "feature_title_4": "Customer & Product Management",
+        "feature_description_4": "Easily manage information and services"
+    },
+    "Footer": {
+        "copyright": "Copyright",
+        "rights": "All rights reserved"
+    },
+    "Form": {
+        "title": "Bill-ieve in the Future ✨",
+        "first_name": "First Name",
+        "last_name": "Name",
+        "email": "Email",
+        "join": "Join Beta",
+        "fill_all_fields": "Please fill in all fields",
+        "no_html": "No HTML allowed",
+        "email_sent": "Email sent successfully, you will receive a confirmation email shortly.",
+        "email_error": "An error occurred while sending the email, please try again later.",
+        "failed_sending": "Failed to send email"
+    },
+    "MobileNav":{
+        "close_navigation": "Close Navigation",
+        "open_navigation": "Open Navigation"
+    },
+    "SM":{
+        "follow" : "Follow"
+    },
+    "About":{
+        "title": "About billsder",
+        "subtitle": "Revolutionizing invoicing for the modern business landscape",
+        "our_mission": "Our Mission",
+        "our_mission_description": "At billsder, we're on a mission to simplify invoicing for businesses of all sizes. We believe that managing finances should be effortless, allowing you to focus on what you do best - growing your business.",
+        "sign_up_beta": "Sign Up for Beta",
+        "why_billsder": "Why billsder?",
+        "why_title_1": "Easy to Use",
+        "why_description_1": "Intuitive interface for quick invoicing",
+        "why_title_2": "Smart Automation",
+        "why_description_2": "Automated processes to save you time",
+        "why_title_3": "Global Reach",
+        "why_description_3": "Multi-currency support for international business",
+        "why_title_4": "Fast Performance",
+        "why_description_4": "Lightning-quick operations for efficiency",
+        "our_story": "Our Story",
+        "story_1": "billsder was born from a simple idea: make invoicing painless. Our team of passionate developers create a solution that combines powerful features with user-friendly design.",
+        "story_2": "Today, we're proud to serve businesses to you, helping you streamline your financial processes and focus on growth. As we continue to evolve, our commitment remains the same - to provide the best invoicing experience possible.",
+        "about_ucodebyus": "About UCODEBYUS",
+        "about_ucodebyus_description": "UCODEBYUS is the innovative software / web development startup company behind billsder. With a passion for creating cutting-edge solutions, UCODEBYUS brings together a team of skilled developers , designers, and industry experts [Ange-Michel, Jean-Emmanuel, Jean, Daniel] to build products that make a difference.",
+        "ucodebyus_skill_title_1": "Expert Development",
+        "ucodebyus_skill_description_1": "Leveraging the latest technologies to build robust solutions",
+        "ucodebyus_skill_title_2": "Innovative Thinking",
+        "ucodebyus_skill_description_2": "Constantly pushing boundaries to create unique products",
+        "ucodebyus_skill_title_3": "Rapid Deployment",
+        "ucodebyus_skill_description_3": "Efficient processes to bring ideas to market quickly",
+        "learn_more": "Learn More About UCODEBYUS"
+
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "Nav": {
+        "features": "Fonctionnalités",
+        "about": "A propos",
+        "contact": "Contact"
+    },
+    "LocaleSwitcher": {
+        "label": "Changer de langue",
+        "locale": "{locale, select, fr {🇫🇷} en {🇺🇸} other {Inconnu}}"
+    },
+    "Hero": {
+        "title": "Rejoignez la bêta de billsder",
+        "subtitle": "Révolutionnez votre processus de facturation",
+        "key_features": "Fonctionnalités clés",
+        "feature_title_1": "Création sans effort",
+        "feature_description_1": "Concevez des factures professionnelles en quelques minutes",
+        "feature_title_2": "Automatisation intelligente",
+        "feature_description_2": "Gagnez du temps avec des factures récurrentes et des rappels automatisés",
+        "feature_title_3": "Portée Mondiale",
+        "feature_description_3": "Créez des factures dans plusieurs devises et langues",
+        "feature_title_4": "Gestion des Clients et des Produits",
+        "feature_description_4": "Gérez facilement les informations et les services"
+    },
+    "Footer": {
+        "copyright": "Droit d'auteur",
+        "rights": "Tous droits réservés"
+    },
+    "Form": {
+        "title": "Facturez vers l'infini... et au-delà! 🚀",
+        "first_name": "Prénom",
+        "last_name": "Nom",
+        "email": "Email",
+        "join": "Rejoignez la bêta",
+        "fill_all_fields": "Veuillez remplir tous les champs",
+        "no_html": "Les balises HTML ne sont pas autorisées",
+        "email_sent": "Email envoyé avec succès. Vous recevrez bientôt un courrier électronique de confirmation.",
+        "email_error": "Une erreur s'est produite lors de l'envoi de l'email. Veuillez réessayer ultérieurement.",
+        "failed_sending": "Échec de l'envoi de l'email"
+    },
+    "MobileNav":{
+        "close_navigation": "Fermer la navigation",
+        "open_navigation": "Ouvrir la navigation"
+    },
+    "SM":{
+        "follow" : "Suivez nous"
+    },
+    "About":{
+        "title": "A propos de billsder",
+        "subtitle": "Révolutionner la facturation pour le paysage commercial moderne",
+        "our_mission": "Notre Mission",
+        "our_mission_description": "Chez billsder, nous avons pour mission de simplifier la facturation pour les entreprises de toutes tailles. Nous croyons que la gestion des finances devrait être sans effort, vous permettant de vous concentrer sur ce que vous faites de mieux - faire croître votre entreprise.",
+        "sign_up_beta": "Inscrivez-vous pour la bêta",
+        "why_billsder": "Pourquoi billsder?",
+        "why_title_1": "Facile à utiliser",
+        "why_description_1": "Interface intuitive pour une facturation rapide",
+        "why_title_2": "Automatisation intelligente",
+        "why_description_2": "Processus automatisés pour vous faire gagner du temps",
+        "why_title_3": "Portée mondiale",
+        "why_description_3": "Support multi-devises pour les entreprises internationales",
+        "why_title_4": "Performances rapides",
+        "why_description_4": "Des solutions rapides pour une facturation efficace",
+        "our_story": "Notre histoire",
+        "story_1": "billsder est née d'une idée simple : rendre la facturation indolore. Notre équipe de développeurs passionnés s'est réunie pour créer une solution qui combine des fonctionnalités puissantes avec un design convivial.",
+        "story_2": "Aujourd'hui, nous sommes fiers de povoir vous donner billsder, vous aider à rationaliser votre processus financiers et vous concentrer sur la croissance de votre entreprise. Alors que nous continuons à évoluer, notre engagement reste le même - fournir la meilleure expérience de facturation possible.",
+        "about_ucodebyus": "À propos d'UCODEBYUS",
+        "about_ucodebyus_description": "UCODEBYUS est la startup innovante de développement logiciel / web derrière billsder. Avec une passion pour la création de solutions de pointe, UCODEBYUS rassemble une équipe de développeurs qualifiés, de designers et d'experts de l'industrie [Ange-Michel, Jean-Emmanuel, Jean, Daniel] pour construire des produits qui font la différence.",
+        "ucodebyus_skill_title_1": "Développement Expert",
+        "ucodebyus_skill_description_1": "Utilisation des dernières technologies pour construire des solutions robustes",
+        "ucodebyus_skill_title_2": "Pensée Innovante",
+        "ucodebyus_skill_description_2": "Repousser constamment les limites pour créer des produits uniques",
+        "ucodebyus_skill_title_3": "Déploiement Rapide",
+        "ucodebyus_skill_description_3": "Processus efficaces pour amener rapidement les idées sur le marché",
+        "learn_more": "En savoir plus sur UCODEBYUS"
+    }
+}
