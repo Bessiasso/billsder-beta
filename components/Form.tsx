@@ -242,7 +242,7 @@ const Form = () => {
                         {t("thank_you")}
                     </p>
                     <p className="text-[#d7f6e5] mt-3 md:mt-4 text-lg md:text-xl">
-                        {t("we'll be in touch soon")}
+                        {t("we_will_contact")}
                     </p>
                 </motion.div>
             )}

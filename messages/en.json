@@ -33,11 +33,11 @@
         "join": "Join Beta",
         "fill_all_fields": "Please fill in all fields",
         "no_html": "No HTML allowed",
-        "email_sent": "Email sent successfully, you will receive a confirmation email shortly.",
+        "email_sent": "You are signed up 🎉. You will soon receive a confirmation email.",
         "email_error": "An error occurred while sending the email, please try again later.",
         "failed_sending": "Failed to send email",
         "thank_you": "Thank you for joining the billsder Beta!",
-        "We'll be in touch soon": "We'll be in touch soon with more information about the Beta launch."
+        "we_will_contact": "We'll be in touch soon with more information about the Beta launch."
     },
     "MobileNav":{
         "close_navigation": "Close Navigation",
