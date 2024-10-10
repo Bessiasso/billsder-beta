@@ -24,7 +24,6 @@ const Form = () => {
             ...prev,
             [name]: value,
         }));
-        console.log(formData);
     };
 
     const handleSubmit = async (event: React.FormEvent) => {
