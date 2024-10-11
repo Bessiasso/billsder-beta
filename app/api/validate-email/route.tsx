@@ -9,6 +9,7 @@ const allowedDomains = [
     "icloud.com",
     "protonmail.com",
     "mail.com",
+    "hotmail.com",
     // Add more popular domains as needed
 ];
 
