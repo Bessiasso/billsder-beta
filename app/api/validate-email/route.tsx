@@ -4,6 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 const allowedDomains = [
     "gmail.com",
     "yahoo.com",
+    "yahoo.fr",
     "hotmail.com",
     "outlook.com",
     "icloud.com",
