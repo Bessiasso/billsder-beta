@@ -1,14 +1,12 @@
-'use client';
-import Hero from "./Hero";
-import Footer from "./Footer";
-import SM from "./SM";
+"use client";
+import Hero from "@/components/Home/Hero";
+import SM from "@/components/Home/SM";
 
-export default function Subscription() {
+export default function Home() {
     return (
         <div className="min-h-screen text-white flex flex-col">
             <Hero />
             <SM />
-            <Footer />
         </div>
     );
 }

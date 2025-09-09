@@ -1,79 +1,216 @@
 {
     "Nav": {
+        "home": "Home",
         "features": "Features",
-        "about": "About",
-        "contact": "Contact"
+        "pricing": "Pricing",
+        "billsder": "billsder",
+        "businessPartner": "Business Partner",
+        "ucodebyus": "UCODEBYUS"
     },
     "LocaleSwitcher": {
         "label": "Change language",
         "locale": "{locale, select, fr {fr} en {🇺🇸} other {Unknown}}"
     },
+    "SignIn": {
+        "title": "Sign in",
+        "email": "Email",
+        "password": "Password",
+        "send_otp": "Send OTP",
+        "submit": "Sign in",
+        "forgot-password": "Forgot password?",
+        "reset-password": "Reset password",
+        "sign-in": "Sign In",
+        "sign-up": "Sign up",
+        "dont-have-account": "Don't have an account?",
+        "welcome_back": "Welcome back!",
+        "great_to_see_you": "We are glad to see you again. Sign in to access your account."
+    },
+    "SignOut": {
+        "logOut": "Log Out"
+    },
+    "SignUp": {
+        "title": "Get Started with billsder",
+        "not_filled": "This field is required",
+        "email": "Email",
+        "password": "Password",
+        "first_name": "First Name",
+        "enter_first_name": "Enter your first name",
+        "last_name": "Last Name",
+        "enter_last_name": "Enter your last name",
+        "confirm_password": "Confirm pasword",
+        "submit": "Sign in",
+        "forgot-password": "Forgot password?",
+        "sign-in": "Sign In",
+        "sign-up": "Sign Up",
+        "have-account": "Already have an account ?",
+        "welcome": "Streamline Your Business with billsder",
+        "welcome_message": "Your All-in-One Solution for Invoicing, Inventory, and More",
+        "agree_terms": "By signing up, I agree to all ",
+        "terms": "terms of service"
+    },
     "Hero": {
         "title": "Join the billsder Beta",
-        "subtitle": "Revolutionize Your Invoicing Process",
+        "subtitle": "The Ultimate Solution for Your Business Management - Beta Access",
+        "description": "The accounting management software that simplifies your business life, from invoicing to collection, through tracking inputs, outputs, and your inventory. billsder follows you every step of the way.",
         "key_features": "Key Features",
-        "feature_title_1": "Effortless Creation",
-        "feature_description_1": "Design professional invoices in minutes",
-        "feature_title_2": "Smart Automation",
-        "feature_description_2": "Save time with automated recurring invoices and reminders",
-        "feature_title_3": "Global Reach",
-        "feature_description_3": "Create invoices in multiple currencies and languages",
-        "feature_title_4": "Customer & Product Management",
-        "feature_description_4": "Easily manage information and services"
+        "cta": "Get Started Now",
+        "learn_more": "Learn More About billsder",
+        "beta_seats_title": "Limited Beta Access - 150 Seats Available",
+        "beta_seats_description": "Only the first 150 participants will be selected to take part in our exclusive beta program. The beta is completely free and gives you early access to all billsder features before the official launch.",
+        "feature_title_1": "Professional Invoices with Payment Links",
+        "feature_description_1": "No more chasing clients. Send your invoices and collect payments directly online.",
+        "feature_title_2": "Simplified Inventory Management",
+        "feature_description_2": "Track your stock in real-time and avoid costly shortages or surpluses.",
+        "feature_title_3": "Integrated Customer & Supplier Tracking",
+        "feature_description_3": "Keep complete history of your relationships and save time in your exchanges.",
+        "feature_title_4": "Product Performance Analysis",
+        "feature_description_4": "Discover what sells best and make decisions based on real data, not assumptions.",
+        "features": {
+            "trial": "Manage easily, grow fast",
+            "first_month": "$1 for the first month",
+            "support": "24/7 support"
+        }
+    },
+    "HeroBackground": {
+        "monthly_sales": "Monthly Sales",
+        "distribution": "Distribution",
+        "inventory": "Inventory",
+        "growth": "Growth",
+        "product_a": "Product A",
+        "product_b": "Product B",
+        "product_c": "Product C"
+    },
+    "HeroDashboard": {
+        "dashboard": "Dashboard",
+        "performance": "Performance",
+        "sales": "Sales",
+        "customers": "Customers",
+        "revenue": "Revenue",
+        "orders": "Orders",
+        "sales_by_category": "Sales by Category",
+        "active_customers": "Active Customers",
+        "this_month": "this month",
+        "monthly_sales": "Monthly Sales",
+        "days": {
+            "mon": "Mon",
+            "tue": "Tue",
+            "wed": "Wed",
+            "thu": "Thu",
+            "fri": "Fri",
+            "sat": "Sat",
+            "sun": "Sun"
+        }
     },
     "Footer": {
         "copyright": "Copyright",
-        "rights": "All rights reserved"
+        "rights": "All rights reserved",
+        "features": "Features",
+        "pricing": "Pricing",
+        "about-us": "About us",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "support": "Support",
+        "faq": "FAQ",
+        "legal": "Legal",
+        "contact_support": "Contact Support",
+        "princing": "Pricing",
+        "description": "The accounting management software that simplifies your business life, from invoicing to collection, through tracking inputs, outputs, and your inventory. billsder follows you every step of the way.",
+        "contact": {
+            "email": "billsder.service@gmail.com",
+            "phone": "+1 819 318-3596",
+            "location": "Ottawa, Canada"
+        },
+        "categories": {
+            "billsder": "billsder",
+            "bbpp": "billsder Business Partner"
+        },
+        "links": {
+            "billsder": [
+                { "text": "Home", "href": "https://billsder.com" },
+                { "text": "Pricing", "href": "https://billsder.compricing" },
+                { "text": "Features", "href": "https://billsder.comfeatures" }
+            ],
+            "bbpp": [
+                {
+                    "text": "Information",
+                    "href": "https://billsder.com/en/billsder-partner"
+                },
+                {
+                    "text": "Business Partner",
+                    "href": "https://billsder.com/en/billsder-partner"
+                }
+            ]
+        },
+        "newsletter": {
+            "title": "Stay Updated",
+            "description": "Subscribe to our newsletter to receive our latest news and updates.",
+            "namePlaceholder": "Your name",
+            "emailPlaceholder": "Your email address",
+            "button": "Subscribe",
+            "submitting": "Sending...",
+            "success": "Thank you for subscribing!",
+            "error": "An error occurred. Please try again."
+        },
+        "illustrations": "Illustrations by Storyset"
+    },
+    "AboutUs": {
+        "title": "About Us",
+        "description": "Revolutionizing invoicing for businesses of all sizes",
+        "goal": "At billsder, we're on a mission to simplify the invoicing process. We understand the challenges businesses face when it comes to billing, and we've created a solution that's intuitive, efficient, and adaptable to your needs.",
+        "feature_1_title": "Effortless Creation",
+        "feature_1_description": "Design professional invoices in minutes with our user-friendly interface. No more struggling with complex software or templates.",
+        "feature_2_title": "Smart Automation",
+        "feature_2_description": "Save time with automated recurring invoices, payment reminders, and real-time tracking. Focus on your business while we handle the paperwork.",
+        "feature_3_title": "Global Reach",
+        "feature_3_description": "Create invoices in multiple currencies and languages. Expand your business globally without the hassle of manual conversions or translations.",
+        "company_title": "The Company Behind billsder",
+        "company_description": "billsder is proudly created by UCODEBYUS, a forward-thinking software development company dedicated to creating innovative solutions that simplify business processes. With a team of experienced developers and a passion for user-centric design, UCODEBYUS is committed to delivering high-quality, intuitive software that makes a real difference in how businesses operate.",
+        "visit_company": "Visit UCODEBYUS"
     },
     "Form": {
-        "title": "Bill-ieve in the Future ✨",
+        "title": "Transform Your Business Management Today ✨",
         "first_name": "First Name",
-        "last_name": "Name",
+        "last_name": "Last Name",
         "email": "Email",
-        "join": "Join Beta",
+        "join": "Join the Beta",
         "fill_all_fields": "Please fill in all fields",
-        "no_html": "No HTML allowed",
-        "email_sent": "You are signed up 🎉. You will soon receive a confirmation email.",
-        "email_error": "An error occurred while sending the email, please try again later.",
+        "no_html": "HTML tags are not allowed",
+        "email_sent": "You have successfully signed up 🎉. You will receive a confirmation email soon.",
+        "email_error": "An error occurred while sending the email. Please try again later.",
         "failed_sending": "Failed to send email",
-        "thank_you": "Thank you for joining the billsder Beta!",
-        "we_will_contact": "We'll be in touch soon with more information about the Beta launch.",
+        "thank_you": "Thank you for joining the billsder beta!",
+        "we_will_contact": "We will contact you soon with more information about the beta launch.",
         "invalid_email_domain": "Sorry, we don't accept registrations from this email domain."
     },
-    "MobileNav":{
-        "close_navigation": "Close Navigation",
-        "open_navigation": "Open Navigation"
-    },
-    "SM":{
-        "follow" : "Follow"
-    },
-    "About":{
+    "About": {
         "title": "About billsder",
-        "subtitle": "Revolutionizing invoicing for the modern business landscape",
+        "subtitle": "The Ultimate Solution for Your Business Management",
         "our_mission": "Our Mission",
-        "our_mission_description": "At billsder, we're on a mission to simplify invoicing for businesses of all sizes. We believe that managing finances should be effortless, allowing you to focus on what you do best - growing your business.",
-        "sign_up_beta": "Sign Up for Beta",
-        "why_billsder": "Why billsder?",
-        "why_title_1": "Easy to Use",
-        "why_description_1": "Intuitive interface for quick invoicing",
-        "why_title_2": "Smart Automation",
-        "why_description_2": "Automated processes to save you time",
+        "our_mission_description": "To simplify business management for entrepreneurs and companies by providing an all-in-one platform that handles invoicing, payments, inventory, and analytics with ease and efficiency.",
+        "sign_up_beta": "Join the Beta",
+        "why_billsder": "Why Choose billsder?",
+        "why_title_1": "All-in-One Solution",
+        "why_description_1": "Manage invoicing, payments, inventory, and analytics from a single platform",
+        "why_title_2": "User-Friendly",
+        "why_description_2": "Intuitive interface designed for businesses of all sizes",
         "why_title_3": "Global Reach",
-        "why_description_3": "Multi-currency support for international business",
-        "why_title_4": "Fast Performance",
-        "why_description_4": "Lightning-quick operations for efficiency",
+        "why_description_3": "Support for multiple currencies and languages",
+        "why_title_4": "Real-Time Analytics",
+        "why_description_4": "Get instant insights into your business performance",
         "our_story": "Our Story",
-        "story_1": "billsder was born from a simple idea: make invoicing painless. Our team of passionate developers create a solution that combines powerful features with user-friendly design.",
-        "story_2": "Today, we're proud to serve businesses to you, helping you streamline your financial processes and focus on growth. As we continue to evolve, our commitment remains the same - to provide the best invoicing experience possible.",
+        "story_1": "billsder was born from the need to simplify business management for entrepreneurs who struggle with complex accounting software and fragmented tools.",
+        "story_2": "We believe that running a business should be straightforward, and technology should empower rather than complicate your daily operations.",
         "about_ucodebyus": "About UCODEBYUS",
-        "about_ucodebyus_description": "UCODEBYUS is the innovative software / web development startup company behind billsder. With a passion for creating cutting-edge solutions, UCODEBYUS brings together a team of skilled developers , designers, and industry experts [Ange-Michel, Jean-Emmanuel, Jean, Daniel] to build products that make a difference.",
-        "ucodebyus_skill_title_1": "Expert Development",
-        "ucodebyus_skill_description_1": "Leveraging the latest technologies to build robust solutions",
-        "ucodebyus_skill_title_2": "Innovative Thinking",
-        "ucodebyus_skill_description_2": "Constantly pushing boundaries to create unique products",
-        "ucodebyus_skill_title_3": "Rapid Deployment",
-        "ucodebyus_skill_description_3": "Efficient processes to bring ideas to market quickly",
+        "about_ucodebyus_description": "billsder is proudly created by UCODEBYUS, a forward-thinking software development company dedicated to creating innovative solutions that simplify business processes.",
+        "ucodebyus_skill_title_1": "Innovation",
+        "ucodebyus_skill_description_1": "Cutting-edge technology solutions",
+        "ucodebyus_skill_title_2": "User-Centric Design",
+        "ucodebyus_skill_description_2": "Intuitive and accessible interfaces",
+        "ucodebyus_skill_title_3": "Quality",
+        "ucodebyus_skill_description_3": "High-quality, reliable software",
         "learn_more": "Learn More About UCODEBYUS"
-
+    },
+    "SM": {
+        "follow": "Follow us"
     }
 }

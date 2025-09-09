@@ -1,8 +1,11 @@
 {
     "Nav": {
+        "home": "Accueil",
         "features": "Fonctionnalités",
-        "about": "A propos",
-        "contact": "Contact"
+        "pricing": "Tarifs",
+        "billsder": "billsder",
+        "businessPartner": "Business Partner",
+        "ucodebyus": "UCODEBYUS"
     },
     "LocaleSwitcher": {
         "label": "Changer de langue",
@@ -10,23 +13,107 @@
     },
     "Hero": {
         "title": "Rejoignez la bêta de billsder",
-        "subtitle": "Révolutionnez votre processus de facturation",
+        "subtitle": "La solution ultime pour la gestion de votre entreprise - Accès Bêta",
+        "description": "Le logiciel de gestion comptable qui simplifie votre vie d'entreprise, de la facturation à l'encaissement, en passant par le suivi des entrées, sorties et votre inventaire. billsder vous accompagne à chaque étape.",
         "key_features": "Fonctionnalités clés",
-        "feature_title_1": "Création sans effort",
-        "feature_description_1": "Concevez des factures professionnelles en quelques minutes",
-        "feature_title_2": "Automatisation intelligente",
-        "feature_description_2": "Gagnez du temps avec des factures récurrentes et des rappels automatisés",
-        "feature_title_3": "Portée Mondiale",
-        "feature_description_3": "Créez des factures dans plusieurs devises et langues",
-        "feature_title_4": "Gestion des Clients et des Produits",
-        "feature_description_4": "Gérez facilement les informations et les services"
+        "cta": "Commencer maintenant",
+        "learn_more": "En savoir plus sur billsder",
+        "beta_seats_title": "Accès Bêta Limité - 150 Places Disponibles",
+        "beta_seats_description": "Seuls les 150 premiers participants seront sélectionnés pour prendre part à notre programme bêta exclusif. La bêta est entièrement gratuite et vous donne un accès anticipé à toutes les fonctionnalités de billsder avant le lancement officiel.",
+        "feature_title_1": "Factures professionnelles avec lien de paiement",
+        "feature_description_1": "Plus besoin de courir après vos clients. Envoyez vos factures et encaissez directement en ligne.",
+        "feature_title_2": "Gestion d'inventaire simplifiée",
+        "feature_description_2": "Suivez vos stocks en temps réel et évitez les ruptures ou les surplus qui coûtent cher.",
+        "feature_title_3": "Suivi client et fournisseur intégré",
+        "feature_description_3": "Gardez l'historique complet de vos relations et gagnez du temps dans vos échanges.",
+        "feature_title_4": "Analyse de performance produit",
+        "feature_description_4": "Découvrez ce qui se vend le mieux et prenez vos décisions sur des données réelles, pas sur des suppositions.",
+        "features": {
+            "trial": "Gérez facilement, évoluez vite",
+            "first_month": "$1 le premier mois",
+            "support": "Support 24/7"
+        }
+    },
+    "HeroBackground": {
+        "monthly_sales": "Ventes mensuelles",
+        "distribution": "Répartition",
+        "inventory": "Inventaire",
+        "growth": "Croissance",
+        "product_a": "Produit A",
+        "product_b": "Produit B",
+        "product_c": "Produit C"
     },
     "Footer": {
         "copyright": "Droit d'auteur",
-        "rights": "Tous droits réservés"
+        "rights": "Tous droits réservés",
+        "features": "Fonctionnalités",
+        "pricing": "Prix",
+        "about-us": "A propos",
+        "terms": "Conditions d'utilisation",
+        "privacy": "Politique de confidentialité",
+        "support": "Support",
+        "faq": "FAQ",
+        "social": "Suivez-nous sur les réseaux sociaux",
+        "contact_support": "Contacter le support",
+        "princing": "Tarification",
+        "description": "Le logiciel de gestion comptable qui simplifie la vie de votre entreprise, de la facturation à l'encaissement, en passant par le suivi des entrées, des sorties et de votre inventaire. billsder vous suit à chaque étape.",
+        "contact": {
+            "email": "billsder.service@gmail.com",
+            "phone": "+1 819 318-3596",
+            "location": "Ottawa, Canada"
+        },
+        "categories": {
+            "billsder": "billsder",
+            "bbpp": "billsder Business Partner"
+        },
+        "links": {
+            "billsder": [
+                { "text": "Accueil", "href": "https://billsder.com" },
+                { "text": "Tarifs", "href": "https://billsder.compricing" },
+                {
+                    "text": "Fonctionnalités",
+                    "href": "https://billsder.comfeatures"
+                }
+            ],
+            "bbpp": [
+                {
+                    "text": "Information",
+                    "href": "https://billsder.combusiness-partner"
+                },
+                {
+                    "text": "Apply",
+                    "href": "https://www.billsder.com/billsder-partner/apply"
+                }
+            ]
+        },
+        "newsletter": {
+            "title": "Restez informé",
+            "description": "Inscrivez-vous à notre newsletter pour recevoir nos dernières actualités et mises à jour.",
+            "namePlaceholder": "Votre nom",
+            "emailPlaceholder": "Votre adresse email",
+            "button": "S'abonner",
+            "submitting": "Envoi en cours...",
+            "success": "Merci pour votre inscription !",
+            "error": "Une erreur est survenue. Veuillez réessayer."
+        },
+        "illustrations": "Illustrations par Storyset"
+    },
+    "AboutUs": {
+        "title": "À Propos de Nous",
+        "description": "Révolutionner la facturation pour les entreprises de toutes tailles",
+        "goal": "Chez billsder, notre mission est de simplifier le processus de facturation. Nous comprenons les défis auxquels les entreprises sont confrontées en matière de facturation, et nous avons créé une solution intuitive, efficace et adaptable à vos besoins.",
+        "feature_1_title": "Création Sans Effort",
+        "feature_1_description": "Concevez des factures professionnelles en quelques minutes grâce à notre interface conviviale. Fini les luttes avec des logiciels ou des modèles complexes.",
+        "feature_2_title": "Automatisation Intelligente",
+        "feature_2_description": "Gagnez du temps grâce aux factures récurrentes automatisées, aux rappels de paiement et au suivi en temps réel. Concentrez-vous sur votre entreprise pendant que nous gérons la paperasserie.",
+        "feature_3_title": "Portée Mondiale",
+        "feature_3_description": "Créez des factures dans plusieurs devises et langues. Développez votre entreprise à l'échelle mondiale sans les tracas des conversions ou traductions manuelles.",
+        "company_title": "L'Entreprise Derrière billsder",
+        "company_description": "billsder est fièrement créé par UCODEBYUS, une entreprise de développement logiciel avant-gardiste dédiée à la création de solutions innovantes qui simplifient les processus d'entreprise. Avec une équipe de développeurs expérimentés et une passion pour la conception centrée sur l'utilisateur, UCODEBYUS s'engage à fournir des logiciels intuitifs de haute qualité qui font une réelle différence dans le fonctionnement des entreprises.",
+        "visit_company": "Visiter UCODEBYUS"
     },
     "Form": {
-        "title": "Facturez vers l'infini... et au-delà! 🚀",
+        "title": "Transformez votre gestion d'entreprise dès aujourd'hui ✨",
         "first_name": "Prénom",
         "last_name": "Nom",
         "email": "Email",
@@ -40,39 +127,35 @@
         "we_will_contact": "Nous vous contacterons bientôt avec plus d'informations sur le lancement de la bêta.",
         "invalid_email_domain": "Désolé, nous n'acceptons pas les inscriptions de ce domaine d'email."
     },
-    "MobileNav":{
-        "close_navigation": "Fermer la navigation",
-        "open_navigation": "Ouvrir la navigation"
-    },
-    "SM":{
-        "follow" : "Suivez nous"
-    },
-    "About":{
-        "title": "A propos de billsder",
-        "subtitle": "Révolutionner la facturation pour le paysage commercial moderne",
+    "About": {
+        "title": "À propos de billsder",
+        "subtitle": "La solution ultime pour la gestion de votre entreprise",
         "our_mission": "Notre Mission",
-        "our_mission_description": "Chez billsder, nous avons pour mission de simplifier la facturation pour les entreprises de toutes tailles. Nous croyons que la gestion des finances devrait être sans effort, vous permettant de vous concentrer sur ce que vous faites de mieux - faire croître votre entreprise.",
-        "sign_up_beta": "Inscrivez-vous pour la bêta",
-        "why_billsder": "Pourquoi billsder?",
-        "why_title_1": "Facile à utiliser",
-        "why_description_1": "Interface intuitive pour une facturation rapide",
-        "why_title_2": "Automatisation intelligente",
-        "why_description_2": "Processus automatisés pour vous faire gagner du temps",
+        "our_mission_description": "Simplifier la gestion d'entreprise pour les entrepreneurs et les entreprises en fournissant une plateforme tout-en-un qui gère la facturation, les paiements, l'inventaire et les analyses avec facilité et efficacité.",
+        "sign_up_beta": "Rejoindre la Bêta",
+        "why_billsder": "Pourquoi choisir billsder ?",
+        "why_title_1": "Solution tout-en-un",
+        "why_description_1": "Gérez la facturation, les paiements, l'inventaire et les analyses depuis une seule plateforme",
+        "why_title_2": "Convivial",
+        "why_description_2": "Interface intuitive conçue pour les entreprises de toutes tailles",
         "why_title_3": "Portée mondiale",
-        "why_description_3": "Support multi-devises pour les entreprises internationales",
-        "why_title_4": "Performances rapides",
-        "why_description_4": "Des solutions rapides pour une facturation efficace",
-        "our_story": "Notre histoire",
-        "story_1": "billsder est née d'une idée simple : rendre la facturation indolore. Notre équipe de développeurs passionnés s'est réunie pour créer une solution qui combine des fonctionnalités puissantes avec un design convivial.",
-        "story_2": "Aujourd'hui, nous sommes fiers de povoir vous donner billsder, vous aider à rationaliser votre processus financiers et vous concentrer sur la croissance de votre entreprise. Alors que nous continuons à évoluer, notre engagement reste le même - fournir la meilleure expérience de facturation possible.",
+        "why_description_3": "Support pour plusieurs devises et langues",
+        "why_title_4": "Analyses en temps réel",
+        "why_description_4": "Obtenez des insights instantanés sur les performances de votre entreprise",
+        "our_story": "Notre Histoire",
+        "story_1": "billsder est né du besoin de simplifier la gestion d'entreprise pour les entrepreneurs qui luttent avec des logiciels comptables complexes et des outils fragmentés.",
+        "story_2": "Nous croyons que gérer une entreprise devrait être simple, et que la technologie devrait autonomiser plutôt que compliquer vos opérations quotidiennes.",
         "about_ucodebyus": "À propos d'UCODEBYUS",
-        "about_ucodebyus_description": "UCODEBYUS est la startup innovante de développement logiciel / web derrière billsder. Avec une passion pour la création de solutions de pointe, UCODEBYUS rassemble une équipe de développeurs qualifiés, de designers et d'experts de l'industrie [Ange-Michel, Jean-Emmanuel, Jean, Daniel] pour construire des produits qui font la différence.",
-        "ucodebyus_skill_title_1": "Développement Expert",
-        "ucodebyus_skill_description_1": "Utilisation des dernières technologies pour construire des solutions robustes",
-        "ucodebyus_skill_title_2": "Pensée Innovante",
-        "ucodebyus_skill_description_2": "Repousser constamment les limites pour créer des produits uniques",
-        "ucodebyus_skill_title_3": "Déploiement Rapide",
-        "ucodebyus_skill_description_3": "Processus efficaces pour amener rapidement les idées sur le marché",
+        "about_ucodebyus_description": "billsder est fièrement créé par UCODEBYUS, une entreprise de développement logiciel avant-gardiste dédiée à la création de solutions innovantes qui simplifient les processus d'entreprise.",
+        "ucodebyus_skill_title_1": "Innovation",
+        "ucodebyus_skill_description_1": "Solutions technologiques de pointe",
+        "ucodebyus_skill_title_2": "Design centré utilisateur",
+        "ucodebyus_skill_description_2": "Interfaces intuitives et accessibles",
+        "ucodebyus_skill_title_3": "Qualité",
+        "ucodebyus_skill_description_3": "Logiciel de haute qualité et fiable",
         "learn_more": "En savoir plus sur UCODEBYUS"
+    },
+    "SM": {
+        "follow": "Suivez nous"
     }
 }

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nouvelle candidature Billsder Partenaire</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Satoshi:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            body {
+                font-family: "Satoshi", Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f5;
+            }
+            .container {
+                max-width: 600px;
+                margin: 20px auto;
+                background: linear-gradient(
+                    to bottom right,
+                    #a8a7d1,
+                    #54489e,
+                    #3a3178
+                );
+                padding: 2px;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            .content {
+                background-color: rgba(255, 255, 255, 0.95);
+                border-radius: 6px;
+                padding: 30px;
+            }
+            h1 {
+                color: #3f51b5;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 32px;
+                margin: 20px 0;
+                border-bottom: 2px solid #3f51b5;
+                padding-bottom: 10px;
+            }
+            .section {
+                margin-bottom: 20px;
+            }
+            .section-title {
+                font-weight: 700;
+                color: #3f51b5;
+                margin-bottom: 10px;
+            }
+            .field {
+                margin-bottom: 10px;
+            }
+            .field-label {
+                font-weight: 600;
+                color: #666;
+            }
+            .field-value {
+                color: #333;
+            }
+            .logo {
+                background-color: #a8a7d1;
+                padding: 10px;
+                border-radius: 4px;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            .logo img {
+                width: 200px;
+                height: auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="logo">
+                    <img
+                        src="https://res.cloudinary.com/dx9xuzd6l/image/upload/v1728536024/Plan_de_travail_2_qtt6px.png"
+                        alt="Billsder Logo"
+                    />
+                </div>
+                <h1>Nouvelle candidature Billsder Partenaire</h1>
+
+                <div class="section">
+                    <div class="section-title">Informations personnelles</div>
+                    <div class="field">
+                        <span class="field-label">Nom complet:</span>
+                        <span class="field-value">{{ full_name }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Email:</span>
+                        <span class="field-value">{{ email }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Téléphone:</span>
+                        <span class="field-value">{{ phone }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Pays:</span>
+                        <span class="field-value">{{ country }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Âge:</span>
+                        <span class="field-value">{{ age }}</span>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Expérience professionnelle</div>
+                    <div class="field">
+                        <span class="field-label">Situation actuelle:</span>
+                        <span class="field-value">{{ current_situation }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Domaines d'expérience:</span>
+                        <span class="field-value"
+                            >{{ experience_domains }}</span
+                        >
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Parcours professionnel:</span>
+                        <span class="field-value"
+                            >{{ professional_background }}</span
+                        >
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Motivation & compréhension</div>
+                    <div class="field">
+                        <span class="field-label">Raisons de motivation:</span>
+                        <span class="field-value"
+                            >{{ motivation_reasons }}</span
+                        >
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Détails de motivation:</span>
+                        <span class="field-value"
+                            >{{ motivation_details }}</span
+                        >
+                    </div>
+                    <div class="field">
+                        <span class="field-label"
+                            >Compréhension de la professionnalisation:</span
+                        >
+                        <span class="field-value"
+                            >{{ professionalization_understanding }}</span
+                        >
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Vision du rôle:</span>
+                        <span class="field-value">{{ role_vision }}</span>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Ressources & implication</div>
+                    <div class="field">
+                        <span class="field-label">A une audience:</span>
+                        <span class="field-value">{{ has_audience }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Détails de l'audience:</span>
+                        <span class="field-value">{{ audience_details }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label">Prêt à former:</span>
+                        <span class="field-value">{{ ready_to_train }}</span>
+                    </div>
+                    <div class="field">
+                        <span class="field-label"
+                            >Engagement hebdomadaire:</span
+                        >
+                        <span class="field-value"
+                            >{{ weekly_time_commitment }}</span
+                        >
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Message de motivation</div>
+                    <div class="field">
+                        <span class="field-value"
+                            >{{ convincing_message }}</span
+                        >
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Profils professionnels</div>
+                    <div class="field">
+                        <span class="field-value"
+                            >{{ professional_profiles }}</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,16 +1,21 @@
 import createMiddleware from "next-intl/middleware";
-import { pathnames, locales, localePrefix, defaultLocale } from "./config";
+import { routing } from "./i18n/routing";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { getToken } from "next-auth/jwt";
+
 const intlMiddleware = createMiddleware({
-    defaultLocale,
-    locales,
-    pathnames,
-    localePrefix,
+    locales: routing.locales,
+    defaultLocale: routing.defaultLocale,
+    localePrefix: "always",
 });
 
-export default intlMiddleware
+export async function middleware(request: NextRequest) {
+    /// Allow the request to continue to the intl middleware
+    return intlMiddleware(request);
+}
 
 export const config = {
-    // Match only internationalized pathnames
     matcher: [
         // Enable a redirect to a matching locale at the root
         "/",

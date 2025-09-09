@@ -2,31 +2,36 @@
 
 import React from "react";
 import {
-    RiLinkedinFill,
-    RiGithubFill,
-    RiInstagramFill,
-    RiFacebookFill,
-} from "react-icons/ri";
+    FaXTwitter,
+    FaWhatsapp,
+    FaFacebookF,
+    FaLinkedinIn,
+    FaInstagram,
+} from "react-icons/fa6";
 
 import Link from "next/link";
 import path from "path";
 
 const icons = [
     {
-        path: "https://www.facebook.com/people/Ucodebyus/61553135800806/?mibextid=9R9pXO",
-        name: <RiFacebookFill />,
+        path: "https://www.linkedin.com/company/ucodebyus-crafting-innovative-software-for-smes/",
+        name: <FaLinkedinIn />,
     },
     {
-        path: "https://www.linkedin.com/in/ange-michel-gnamien-890b29221/",
-        name: <RiLinkedinFill />,
-    },
-    {
-        path: "https://github.com/ucodebyus",
-        name: <RiGithubFill />,
+        path: "https://www.facebook.com/share/1BvtuXGqYY/?mibextid=wwXIfr",
+        name: <FaFacebookF />,
     },
     {
         path: "https://www.instagram.com/ucodebyus/",
-        name: <RiInstagramFill />,
+        name: <FaInstagram />,
+    },
+    {
+        path: "https://x.com/ucodebyus?s=21",
+        name: <FaXTwitter />,
+    },
+    {
+        path: "https://whatsapp.com/channel/0029VasAlHbJ93wbig3RIG1D",
+        name: <FaWhatsapp />,
     },
 ];
 
