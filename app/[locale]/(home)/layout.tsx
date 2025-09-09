@@ -11,9 +11,9 @@ import "@/app/globals.css";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-    title: "billsder",
+    title: "Beta - billsder",
     description:
-        "The accounting management software that simplifies your business life.",
+        "Take part of the wondefull journey of billsder by being part of the beta.",
 };
 
 export function generateStaticParams() {
