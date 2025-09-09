@@ -173,6 +173,7 @@
         "last_name": "Last Name",
         "email": "Email",
         "join": "Join the Beta",
+        "submitting": "Submitting...",
         "fill_all_fields": "Please fill in all fields",
         "no_html": "HTML tags are not allowed",
         "email_sent": "You have successfully signed up 🎉. You will receive a confirmation email soon.",

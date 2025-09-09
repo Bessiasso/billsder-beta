@@ -12,6 +12,7 @@ const Form = () => {
     const t = useTranslations("Form");
     const [formSubmitted, setFormSubmitted] = useState(false);
     const [confirmationSubmitted, setConfirmationSubmitted] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
     const [formData, setFormData] = useState({
         firstName: "",
         lastName: "",
@@ -44,6 +45,7 @@ const Form = () => {
             return;
         }
 
+        setIsSubmitting(true);
         try {
             const filteredData = {
                 firstName: firstName.replace(htmlTagsRegex, ""),
@@ -96,6 +98,8 @@ const Form = () => {
         } catch (error) {
             console.error(error);
             toast(t("email_error"));
+        } finally {
+            setIsSubmitting(false);
         }
     };
 
@@ -203,11 +207,11 @@ const Form = () => {
                                     </Label>
                                 </div>
                                 <div className="flex-1">
-                                    <Input
+                                    <input
                                         id="firstName"
                                         name="firstName"
                                         required
-                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1  focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none  placeholder:text-governor_bay/60 !rounded-none"
+                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1  focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none  placeholder:text-governor_bay/60 !rounded-none p-5"
                                         placeholder="Didier"
                                         onChange={handleInputChange}
                                     />
@@ -232,11 +236,11 @@ const Form = () => {
                                     </Label>
                                 </div>
                                 <div className="flex-1">
-                                    <Input
+                                    <input
                                         id="lastName"
                                         name="lastName"
                                         required
-                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none"
+                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
                                         placeholder="Drogba"
                                         onChange={handleInputChange}
                                     />
@@ -261,12 +265,12 @@ const Form = () => {
                                     </Label>
                                 </div>
                                 <div className="flex-1">
-                                    <Input
+                                    <input
                                         id="email"
                                         name="email"
                                         type="email"
                                         required
-                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none"
+                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
                                         placeholder="didier@drogba.com"
                                         onChange={handleInputChange}
                                     />
@@ -287,10 +291,13 @@ const Form = () => {
                         >
                             <Button
                                 type="submit"
-                                className="bg-gradient-to-r from-[#54489e] to-[#6656a7] hover:from-governor_bay hover:to-[#a8a7d1] text-white hover:text-white transition-colors duration-300 ease-in-out text-lg md:text-xl py-6 md:py-8 rounded-3xl shadow-lg hover:shadow-xl font-semibold px-12 w-full"
+                                disabled={isSubmitting}
+                                className="bg-gradient-to-r from-[#54489e] to-[#6656a7] hover:from-governor_bay hover:to-[#a8a7d1] text-white hover:text-white transition-colors duration-300 ease-in-out text-lg md:text-xl py-6 md:py-8 rounded-3xl shadow-lg hover:shadow-xl font-semibold px-12 w-full disabled:opacity-50 disabled:cursor-not-allowed"
                             >
-                                {t("join")}
-                                <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
+                                {isSubmitting ? t("submitting") : t("join")}
+                                {!isSubmitting && (
+                                    <ArrowRight className="ml-2 h-5 w-5 md:h-6 md:w-6" />
+                                )}
                             </Button>
                         </motion.div>
                     </motion.div>

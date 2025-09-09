@@ -118,6 +118,7 @@
         "last_name": "Nom",
         "email": "Email",
         "join": "Rejoignez la bêta",
+        "submitting": "Envoi en cours...",
         "fill_all_fields": "Veuillez remplir tous les champs",
         "no_html": "Les balises HTML ne sont pas autorisées",
         "email_sent": "Vous vous êtes inscrit 🎉. Vous recevrez bientôt un email de confirmation.",
