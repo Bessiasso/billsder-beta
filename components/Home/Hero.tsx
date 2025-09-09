@@ -155,12 +155,12 @@ const Hero = () => {
                                     <div className="relative border-b-2 border-dashed border-governor_bay/30 group-hover:border-governor_bay transition-all duration-300 pb-4">
                                         <div className="flex items-start space-x-6">
                                             <div className="flex-shrink-0">
-                                                <div className="bg-gradient-to-br from-[#54489e] to-[#6656a7] p-3 rounded-xl shadow-md group-hover:shadow-lg group-hover:shadow-[#54489e]/30 transition-all duration-300">
-                                                    <feature.icon className="h-6 w-6 text-white" />
+                                                <div className="bg-gradient-to-br from-[#54489e] to-[#6656a7] p-3 rounded-3xl shadow-md group-hover:shadow-lg group-hover:shadow-[#54489e]/30 transition-all duration-300">
+                                                    <feature.icon className="h-8 w-8 text-white" />
                                                 </div>
                                             </div>
                                             <div className="flex-1 min-w-0">
-                                                <h3 className="text-xl font-semibold text-governor_bay/80 dark:text-wistful/80 mb-2 group-hover:text-governor_bay transition-colors duration-300">
+                                                <h3 className="text-xl font-semibold text-governor_bay/80 dark:text-white mb-2 group-hover:text-governor_bay transition-colors duration-300">
                                                     {feature.title}
                                                 </h3>
                                                 <p className="text-wistful dark:text-wistful/50 text-base leading-relaxed group-hover:text-governor_bay dark:group-hover:text-wistful transition-colors duration-300">

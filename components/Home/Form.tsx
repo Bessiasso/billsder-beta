@@ -187,7 +187,7 @@ const Form = () => {
                     className="space-y-6 md:space-y-8 h-auto"
                     variants={containerVariants}
                 >
-                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-10 text-center bg-gradient-to-r from-governor_bay via-[#a8a7d1] to-[#54489e] text-transparent bg-clip-text leading-tight">
+                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-10 text-center bg-gradient-to-r from-governor_bay via-[#a8a7d1] to-[#54489e] dark:text-white text-transparent bg-clip-text leading-tight">
                         {t("title")}
                     </h3>
 
@@ -201,7 +201,7 @@ const Form = () => {
                                 <div className="w-24">
                                     <Label
                                         htmlFor="firstName"
-                                        className="text-lg md:text-xl font-medium text-governor_bay whitespace-nowrap mr-4"
+                                        className="text-lg md:text-xl font-medium text-governor_bay dark:text-white whitespace-nowrap mr-4"
                                     >
                                         {t("first_name")}:
                                     </Label>
@@ -211,7 +211,7 @@ const Form = () => {
                                         id="firstName"
                                         name="firstName"
                                         required
-                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1  focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none  placeholder:text-governor_bay/60 !rounded-none p-5"
+                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay dark:text-white dark:placeholder:text-white/30 text-lg md:text-xl py-1  focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none  placeholder:text-governor_bay/60 !rounded-none p-5"
                                         placeholder="Didier"
                                         onChange={handleInputChange}
                                     />
@@ -230,7 +230,7 @@ const Form = () => {
                                 <div className="w-24">
                                     <Label
                                         htmlFor="lastName"
-                                        className="text-lg md:text-xl font-medium text-governor_bay whitespace-nowrap mr-4"
+                                        className="text-lg md:text-xl font-medium text-governor_bay  dark:text-white whitespace-nowrap mr-4"
                                     >
                                         {t("last_name")}:
                                     </Label>
@@ -240,7 +240,7 @@ const Form = () => {
                                         id="lastName"
                                         name="lastName"
                                         required
-                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
+                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay dark:text-white dark:placeholder:text-white/30 text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
                                         placeholder="Drogba"
                                         onChange={handleInputChange}
                                     />
@@ -259,7 +259,7 @@ const Form = () => {
                                 <div className="w-24 ">
                                     <Label
                                         htmlFor="email"
-                                        className="text-lg md:text-xl font-medium text-governor_bay whitespace-nowrap mr-4"
+                                        className="text-lg md:text-xl font-medium text-governor_bay dark:text-white whitespace-nowrap mr-4"
                                     >
                                         {t("email")}:
                                     </Label>
@@ -270,7 +270,7 @@ const Form = () => {
                                         name="email"
                                         type="email"
                                         required
-                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
+                                        className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay dark:text-white dark:placeholder:text-white/30 text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
                                         placeholder="didier@drogba.com"
                                         onChange={handleInputChange}
                                     />
