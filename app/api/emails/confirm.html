@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Billsder Beta Confirmation | Confirmation Bêta Billsder</title>
+        <style>
+            body {
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f8f9fa;
+            }
+            .container {
+                background-color: #ffffff;
+                border-radius: 12px;
+                padding: 40px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .logo {
+                font-size: 28px;
+                font-weight: bold;
+                color: #2563eb;
+                margin-bottom: 10px;
+            }
+            .title {
+                font-size: 24px;
+                font-weight: 600;
+                color: #1f2937;
+                margin-bottom: 20px;
+            }
+            .content {
+                margin-bottom: 30px;
+            }
+            .greeting {
+                font-size: 18px;
+                margin-bottom: 20px;
+                color: #374151;
+            }
+            .message {
+                font-size: 16px;
+                margin-bottom: 25px;
+                color: #4b5563;
+            }
+            .language-notice {
+                background-color: #f0f9ff;
+                border: 1px solid #0ea5e9;
+                border-radius: 8px;
+                padding: 12px;
+                margin: 20px 0;
+                text-align: center;
+            }
+            .language-notice p {
+                margin: 0;
+                color: #0369a1;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .divider {
+                border: 0;
+                border-top: 1px solid #e5e7eb;
+                margin: 30px 0;
+            }
+            .team-signature {
+                margin-top: 20px;
+                font-weight: 500;
+                color: #374151;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #e5e7eb;
+                color: #6b7280;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img
+                    src="https://res.cloudinary.com/dx9xuzd6l/image/upload/v1728536024/Plan_de_travail_2_qtt6px.png"
+                    alt="Billsder Logo"
+                    style="height: 60px; margin-bottom: 20px"
+                />
+                <h1 class="title">Billsder Beta Confirmation</h1>
+                <div class="language-notice">
+                    <p>
+                        📧 This email contains both English and French versions
+                        / Cet email contient les versions anglaise et française
+                    </p>
+                </div>
+            </div>
+
+            <div class="content">
+                <!-- English Version -->
+                <div class="greeting">Hi {{ firstName }} {{ lastName }},</div>
+
+                <div class="message">
+                    Thank you for signing up for the
+                    <strong>Billsder</strong> beta. We're excited to have you on
+                    board!
+                </div>
+
+                <div class="message">
+                    We'll keep you updated on our progress and let you know when
+                    you can start using Billsder.
+                </div>
+
+                <div class="message">Best regards,</div>
+
+                <div class="team-signature">UCODEBYUS Team</div>
+
+                <hr class="divider" />
+
+                <!-- French Version -->
+                <div class="greeting">
+                    Bonjour {{ firstName }} {{ lastName }},
+                </div>
+
+                <div class="message">
+                    Merci de vous être inscrit(e) à la version bêta de
+                    <strong>Billsder</strong>. Nous sommes ravis de vous compter
+                    parmi nous !
+                </div>
+
+                <div class="message">
+                    Nous vous tiendrons informé(e) de nos progrès et vous ferons
+                    savoir quand vous pourrez commencer à utiliser Billsder.
+                </div>
+
+                <div class="message">Cordialement,</div>
+
+                <div class="team-signature">L'équipe UCODEBYUS</div>
+            </div>
+
+            <div class="footer">
+                <p>
+                    CONFIDENTIALITY NOTICE: If you are not the intended
+                    recipient or have received this communication in error,
+                    please delete the message without copying or disclosing it.
+                </p>
+                <p>
+                    AVIS DE CONFIDENTIALITÉ : Si vous n'êtes pas le destinataire
+                    prévu ou si vous avez reçu cette communication par erreur,
+                    veuillez supprimer le message sans le copier ni le
+                    divulguer.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -321,7 +321,7 @@ const Form = () => {
                         <CheckCircle className="h-16 w-16 md:h-20 md:w-20 text-[#54489e] mx-auto mb-6 md:mb-8 drop-shadow-lg" />
                     </motion.div>
                     <motion.p
-                        className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#d7f6e5] to-[#a8a7d1] text-transparent bg-clip-text mb-4"
+                        className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-governor_bay to-[#a8a7d1] text-transparent bg-clip-text mb-4"
                         initial={{ y: 20, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ delay: 0.4 }}
