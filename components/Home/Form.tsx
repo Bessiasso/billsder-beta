@@ -212,7 +212,7 @@ const Form = () => {
                                         name="firstName"
                                         required
                                         className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay dark:text-white dark:placeholder:text-white/30 text-lg md:text-xl py-1  focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none  placeholder:text-governor_bay/60 !rounded-none p-5"
-                                        placeholder="Didier"
+                                        placeholder="John"
                                         onChange={handleInputChange}
                                     />
                                 </div>
@@ -241,7 +241,7 @@ const Form = () => {
                                         name="lastName"
                                         required
                                         className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay dark:text-white dark:placeholder:text-white/30 text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
-                                        placeholder="Drogba"
+                                        placeholder="Doe"
                                         onChange={handleInputChange}
                                     />
                                 </div>
@@ -271,7 +271,7 @@ const Form = () => {
                                         type="email"
                                         required
                                         className="!w-full bg-transparent dark:bg-transparent !border-0 dark:!border-0 text-governor_bay dark:text-white dark:placeholder:text-white/30 text-lg md:text-xl py-1 focus:!ring-0 dark:focus:!ring-0 focus:!outline-none dark:focus:!outline-none focus:!shadow-none dark:focus:!shadow-none placeholder:text-governor_bay/60 !rounded-none p-5"
-                                        placeholder="didier@drogba.com"
+                                        placeholder="john@doe.com"
                                         onChange={handleInputChange}
                                     />
                                 </div>
